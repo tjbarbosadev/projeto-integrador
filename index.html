@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terra Agora — Por um planeta sustentável</title>
+    <meta
+      name="description"
+      content="Terra Agora é uma ONG ambiental que mostra o que está em jogo na crise climática e o que cada pessoa pode fazer para cuidar do planeta."
+    />
+    <meta name="theme-color" content="#cbd5d0" />
+
+    <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Terra Agora" />
+    <meta
+      property="og:title"
+      content="Terra Agora — Por um planeta sustentável"
+    />
+    <meta
+      property="og:description"
+      content="Terra Agora é uma ONG ambiental que mostra o que está em jogo na crise climática e o que cada pessoa pode fazer para cuidar do planeta."
+    />
+    <meta property="og:image" content="assets/images/og-cover.png" />
+    <meta property="og:image:width" content="820" />
+    <meta property="og:image:height" content="312" />
+    <meta
+      property="og:image:alt"
+      content="Logotipo Terra Agora — folha estilizada com as palavras Terra e Agora"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Terra Agora — Por um planeta sustentável"
+    />
+    <meta
+      name="twitter:description"
+      content="Terra Agora é uma ONG ambiental que mostra o que está em jogo na crise climática e o que cada pessoa pode fazer para cuidar do planeta."
+    />
+    <meta name="twitter:image" content="assets/images/og-cover.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Logotipo Terra Agora — folha estilizada com as palavras Terra e Agora"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Sora&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner container">
+        <a
+          href="#hero"
+          class="site-brand"
+          aria-label="Terra Agora — voltar ao início"
+        >
+          <img
+            src="assets/images/logo.svg"
+            alt=""
+            aria-hidden="true"
+            class="site-brand__logo"
+          />
+          <span class="site-brand__name">
+            <span class="site-brand__terra">Terra</span
+            ><span class="site-brand__agora">Agora</span>
+          </span>
+        </a>
+
+        <a href="#cuidados" class="btn-cta btn-cta--header">Vamos agir</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="section hero">
+        <video
+          class="hero__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          aria-hidden="true"
+        >
+          <source src="assets/videos/hero-rio.mp4" type="video/mp4" />
+        </video>
+        <div class="hero__overlay">
+          <h1 class="hero__title">O clima não espera. E você?</h1>
+          <a href="#cuidados" class="btn-cta">Vamos agir</a>
+        </div>
+      </section>
+
+      <section id="noticias" class="section">
+        <div class="container">
+          <h2 class="section__title">O que está em jogo</h2>
+          <p class="section__lead">
+            A crise climática já afeta cidades, florestas e comunidades em todo
+            o Brasil. A Terra Agora trabalha para que ninguém ignore o que está
+            acontecendo.
+          </p>
+          <div class="cards-grid">
+            <article class="news-card">
+              <img
+                class="news-card__img"
+                src="assets/images/card-calor.jpg"
+                alt="Prédio de concreto sob céu claro em dia de calor intenso"
+              />
+              <div class="news-card__body">
+                <h3 class="news-card__title">Ondas de calor</h3>
+                <p class="news-card__text">
+                  Cidades inteiras enfrentam recordes de temperatura. Idosos,
+                  crianças e trabalhadores ao ar livre são os mais vulneráveis
+                  às ondas de calor cada vez mais intensas.
+                </p>
+              </div>
+            </article>
+            <article class="news-card">
+              <img
+                class="news-card__img"
+                src="assets/images/card-chuvas.jpg"
+                alt="Enchente invade casas enquanto pessoa permanece na água"
+              />
+              <div class="news-card__body">
+                <h3 class="news-card__title">Chuvas extremas</h3>
+                <p class="news-card__text">
+                  Secas mais longas e chuvas torrenciais se alternam com
+                  violência. No Sul e em outras regiões, enchentes e
+                  deslizamentos destroem lares e infraestrutura.
+                </p>
+              </div>
+            </article>
+            <article class="news-card">
+              <img
+                class="news-card__img"
+                src="assets/images/card-extincao.jpg"
+                alt="Campo de grama sob céu nublado, paisagem em declínio"
+              />
+              <div class="news-card__body">
+                <h3 class="news-card__title">Extinção acelerada</h3>
+                <p class="news-card__text">
+                  A Amazônia e o Cerrado perdem habitat a cada dia. Espécies
+                  desaparecem antes mesmo de serem estudadas, comprometendo o
+                  equilíbrio de todo o planeta.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="numeros" class="section">
+        <div class="container">
+          <h2 class="section__title">Os números que não podemos ignorar</h2>
+          <p class="section__lead">
+            Dados da ciência climática reforçam por que agir agora é urgente — e
+            por que nossa missão como ONG ambiental existe.
+          </p>
+          <div class="stats-grid">
+            <article class="stat-block">
+              <svg
+                class="stat-block__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"
+                />
+              </svg>
+              <p class="stat-block__number">200M</p>
+              <p class="stat-block__label">
+                Pessoas podem ser deslocadas por eventos climáticos até 2050,
+                tornando-se refugiados ambientais.
+              </p>
+            </article>
+            <article class="stat-block">
+              <svg
+                class="stat-block__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M15 13V5c0-1.66-1.34-3-3-3S9 3.34 9 5v8c-1.21.91-2 2.37-2 4 0 2.76 2.24 5 5 5s5-2.24 5-5c0-1.63-.79-3.09-2-4zm-4-8c0-.55.45-1 1-1s1 .45 1 1h-1v1h1v2h-1v1h1v2h-2V5z"
+                />
+              </svg>
+              <p class="stat-block__number">1,5°C</p>
+              <p class="stat-block__label">
+                Limite de aquecimento global para evitar os piores cenários — e
+                cada décimo de grau a mais conta.
+              </p>
+            </article>
+            <article class="stat-block">
+              <svg
+                class="stat-block__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 2c-5.33 4.55-8 8.48-8 11.8 0 4.98 3.8 8.2 8 8.2s8-3.22 8-8.2c0-3.32-2.67-7.25-8-11.8zm0 18c-3.35 0-6-2.57-6-6.2 0-2.34 1.95-5.44 6-9.14 4.05 3.7 6 6.79 6 9.14 0 3.63-2.65 6.2-6 6.2z"
+                />
+              </svg>
+              <p class="stat-block__number">3,2mm</p>
+              <p class="stat-block__label">
+                Elevação média anual do nível do mar, ameaçando cidades
+                costeiras e comunidades ribeirinhas.
+              </p>
+            </article>
+            <article class="stat-block">
+              <svg
+                class="stat-block__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                aria-hidden="true"
+              >
+                <path
+                  d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+                />
+              </svg>
+              <p class="stat-block__number">×5</p>
+              <p class="stat-block__label">
+                Multiplicação de desastres climáticos nos últimos 50 anos,
+                exigindo resiliência e ação imediata.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="ponte" class="section">
+        <div class="container ponte__content">
+          <h2 class="section__title">Ainda dá tempo de agir</h2>
+          <p class="section__lead">
+            A crise é real, mas a mudança também é possível. Comunidades,
+            cientistas e organizações como a Terra Agora já estão construindo
+            soluções. A consciência de hoje é a ação de amanhã.
+          </p>
+        </div>
+      </section>
+
+      <section id="otimismo" class="section">
+        <div class="container">
+          <h2 class="section__title">Motivos para o otimismo</h2>
+          <p class="section__lead">
+            Boas notícias mostram que a transição para um futuro sustentável já
+            começou — e você pode fazer parte dela.
+          </p>
+          <div class="cards-grid">
+            <article class="news-card news-card--positive">
+              <img
+                class="news-card__img"
+                src="assets/images/card-solar.jpg"
+                alt="Painéis solares em campo aberto"
+              />
+              <div class="news-card__body">
+                <h3 class="news-card__title">Energia renovável em expansão</h3>
+                <p class="news-card__text">
+                  Solar e eólica já representam a maior parte dos novos
+                  investimentos em energia, tornando a eletricidade limpa mais
+                  acessível a cada ano.
+                </p>
+              </div>
+            </article>
+            <article class="news-card news-card--positive">
+              <img
+                class="news-card__img"
+                src="assets/images/card-floresta.jpg"
+                alt="Mãos segurando broto de planta jovem"
+              />
+              <div class="news-card__body">
+                <h3 class="news-card__title">Reflorestamento e recuperação</h3>
+                <p class="news-card__text">
+                  Projetos de restauração florestal no Brasil e no mundo já
+                  recuperaram milhões de hectares, devolvendo biodiversidade e
+                  capturando carbono.
+                </p>
+              </div>
+            </article>
+            <article class="news-card news-card--positive">
+              <img
+                class="news-card__img"
+                src="assets/images/card-mobilizacao.jpg"
+                alt="Pessoa segura cartaz There is no planet B em protesto ambiental"
+              />
+              <div class="news-card__body">
+                <h3 class="news-card__title">Mobilização em crescimento</h3>
+                <p class="news-card__text">
+                  Cada vez mais pessoas, empresas e comunidades se unem por
+                  políticas climáticas, investimentos verdes e práticas
+                  sustentáveis no dia a dia.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="cuidados" class="section">
+        <div class="container">
+          <h2 class="section__title">Cuidados que podemos ter agora</h2>
+          <p class="section__lead section__lead--desktop">
+            Passe o cursor sobre cada ação para saber como aplicá-la no dia a
+            dia. A Terra Agora acredita que a mudança começa com cada um de nós.
+          </p>
+          <p class="section__lead section__lead--mobile">
+            Confira cada ação e como aplicá-la no dia a dia. A Terra Agora
+            acredita que a mudança começa com cada um de nós.
+          </p>
+
+          <div class="cuidados-layout">
+            <ul class="cuidados-nav" role="list">
+              <li class="cuidados-nav__item" tabindex="0">Economize energia</li>
+              <li class="cuidados-nav__item" tabindex="0">
+                Reduza o consumo de carne
+              </li>
+              <li class="cuidados-nav__item" tabindex="0">
+                Use transporte sustentável
+              </li>
+              <li class="cuidados-nav__item" tabindex="0">
+                Recicle e reduza plásticos
+              </li>
+              <li class="cuidados-nav__item" tabindex="0">Economize água</li>
+              <li class="cuidados-nav__item" tabindex="0">
+                Plante e cuide de árvores
+              </li>
+              <li class="cuidados-nav__item" tabindex="0">
+                Consuma com consciência
+              </li>
+              <li class="cuidados-nav__item" tabindex="0">
+                Compartilhe conhecimento
+              </li>
+            </ul>
+
+            <div class="cuidados-panels">
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-energia.jpg"
+                  alt="Interruptor branco na parede"
+                />
+                <h3 class="cuidados-panel__title">Economize energia</h3>
+                <p class="cuidados-panel__text">
+                  Desligue aparelhos da tomada quando não estiver usando,
+                  substitua lâmpadas incandescentes por LED e escolha
+                  eletrodomésticos com selo Procel de eficiência energética.
+                  Pequenos hábitos, como aproveitar luz natural durante o dia,
+                  reduzem emissões e a conta de luz.
+                </p>
+              </article>
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-carne.jpg"
+                  alt="Prato com vegetais frescos"
+                />
+                <h3 class="cuidados-panel__title">Reduza o consumo de carne</h3>
+                <p class="cuidados-panel__text">
+                  A pecuária responde por grande parte das emissões globais de
+                  metano e desmatamento. Experimente dias sem carne, explore
+                  proteínas vegetais e prefira produtores locais. Reduzir o
+                  consumo não exige radicalismo — consistência faz mais
+                  diferença que perfeição.
+                </p>
+              </article>
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-transporte.jpg"
+                  alt="Pessoa pedalando bicicleta na cidade"
+                />
+                <h3 class="cuidados-panel__title">
+                  Use transporte sustentável
+                </h3>
+                <p class="cuidados-panel__text">
+                  Priorize caminhada, bicicleta e transporte público para
+                  trajetos curtos e médios. Quando precisar de carro, considere
+                  caronas ou veículos compartilhados. Cada quilômetro não
+                  percorrido de carro individual evita emissões e melhora a
+                  qualidade do ar urbano.
+                </p>
+              </article>
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-reciclagem.jpg"
+                  alt="Fileira de lixeiras de reciclagem na calçada"
+                />
+                <h3 class="cuidados-panel__title">
+                  Recicle e reduza plásticos
+                </h3>
+                <p class="cuidados-panel__text">
+                  Leve sacolas, garrafas e potes reutilizáveis. Separe resíduos
+                  recicláveis corretamente e evite produtos com embalagens
+                  descartáveis desnecessárias. O plástico de uso único polui
+                  oceanos e solos por séculos — recusar antes de reciclar é
+                  ainda mais eficaz.
+                </p>
+              </article>
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-agua.jpg"
+                  alt="Torneira de aço inox sobre pia branca de cerâmica"
+                />
+                <h3 class="cuidados-panel__title">Economize água</h3>
+                <p class="cuidados-panel__text">
+                  Feche a torneira ao escovar os dentes, tome banhos mais curtos
+                  e reutilize água da chuva para regar plantas. Consertar
+                  vazamentos evita desperdício silencioso. Água potável é
+                  recurso finito — usá-la com consciência protege aquíferos e
+                  rios.
+                </p>
+              </article>
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-arvores.jpg"
+                  alt="Homem ajoelhado plantando uma árvore"
+                />
+                <h3 class="cuidados-panel__title">Plante e cuide de árvores</h3>
+                <p class="cuidados-panel__text">
+                  Participe de mutirões de arborização urbana ou apoie ONGs de
+                  reflorestamento. Árvores absorvem CO₂, refrescam cidades e
+                  abrigam biodiversidade. Cuidar de uma árvore plantada —
+                  regando e protegendo — multiplica o impacto da ação.
+                </p>
+              </article>
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-consumo.jpg"
+                  alt="Feira com produtos locais e sazonais"
+                />
+                <h3 class="cuidados-panel__title">Consuma com consciência</h3>
+                <p class="cuidados-panel__text">
+                  Prefira alimentos da estação, feiras locais e marcas
+                  transparentes sobre sua cadeia produtiva. Comprar menos e
+                  melhor reduz o desperdício e a pegada ecológica. Antes de cada
+                  compra, pergunte: preciso disso? De onde veio? Como será
+                  descartado?
+                </p>
+              </article>
+              <article class="cuidados-panel">
+                <img
+                  class="cuidados-panel__img"
+                  src="assets/images/cuidado-conhecimento.jpg"
+                  alt="Círculo de pessoas sentadas em cadeiras sobre gramado"
+                />
+                <h3 class="cuidados-panel__title">Compartilhe conhecimento</h3>
+                <p class="cuidados-panel__text">
+                  Converse sobre clima com família, amigos e colegas. Vote com
+                  consciência ambiental e incentive sua comunidade a agir.
+                  Divulgar informação confiável e apoiar causas locais amplifica
+                  o impacto individual — a mudança climática se combate também
+                  coletivamente.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container site-footer__inner">
+        <a
+          href="#hero"
+          class="site-brand"
+          aria-label="Terra Agora — voltar ao início"
+        >
+          <img
+            src="assets/images/logo.svg"
+            alt=""
+            aria-hidden="true"
+            class="site-brand__logo"
+          />
+          <span class="site-brand__name">
+            <span class="site-brand__terra">Terra</span
+            ><span class="site-brand__agora">Agora</span>
+          </span>
+        </a>
+        <p class="site-footer__credit">
+          © Terra Agora — ONG ambiental · Conscientização, ação e esperança pelo
+          planeta
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

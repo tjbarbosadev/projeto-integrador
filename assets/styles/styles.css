@@ -419,12 +419,84 @@ h1, h2, h3 {
   max-width: 40rem;
 }
 
+.ponte__icon {
+  display: block;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 auto 1.25rem;
+  fill: var(--primaria-500);
+}
+
 #ponte .section__title {
   color: var(--primaria-800);
 }
 
 #ponte .section__lead {
   color: var(--neutra-700);
+}
+
+/* Ações pelo mundo */
+
+#mundo {
+  --section-bg: var(--secundaria-50);
+  --section-text: var(--secundaria-900);
+}
+
+.news-feed {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.news-feed__item {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.news-feed__item:hover {
+  box-shadow: var(--shadow-card-hover);
+  transform: translateY(-2px);
+}
+
+.news-feed__item:focus-visible {
+  outline: 2px solid var(--primaria-300);
+  outline-offset: 2px;
+}
+
+.news-feed__img {
+  width: 7.5rem;
+  flex-shrink: 0;
+  object-fit: cover;
+  align-self: stretch;
+  min-height: 6.5rem;
+}
+
+.news-feed__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 1.25rem;
+  min-width: 0;
+}
+
+.news-feed__title {
+  font-family: var(--font-heading);
+  font-size: var(--text-base);
+  line-height: var(--leading-base);
+  color: var(--primaria-800);
+  margin-bottom: 0.375rem;
+}
+
+.news-feed__text {
+  font-size: var(--text-sm);
+  line-height: var(--leading-sm);
+  opacity: 0.85;
 }
 
 /* Otimismo */
@@ -567,6 +639,15 @@ h1, h2, h3 {
     max-width: calc((100% - 1.5rem) / 2);
     justify-self: center;
   }
+
+  .news-feed__img {
+    width: 10rem;
+  }
+
+  .news-feed__title {
+    font-size: var(--text-lg);
+    line-height: var(--leading-lg);
+  }
 }
 
 /* Breakpoint: md (768px) */
@@ -602,6 +683,15 @@ h1, h2, h3 {
   .btn-cta--header {
     font-size: var(--text-sm);
     padding: 0.625rem 1.25rem;
+  }
+
+  .news-feed__img {
+    width: 12.5rem;
+    min-height: 8rem;
+  }
+
+  .news-feed__body {
+    padding: 1.25rem 1.5rem;
   }
 
   .cuidados-layout {

@@ -1,0 +1,21 @@
+{
+  "name": "Terra Agora",
+  "short_name": "Terra Agora",
+  "description": "ONG ambiental — conscientização, ação e esperança pelo planeta",
+  "icons": [
+    {
+      "src": "images/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#cbd5d0",
+  "background_color": "#F4F7F5",
+  "display": "standalone",
+  "lang": "pt-BR"
+}

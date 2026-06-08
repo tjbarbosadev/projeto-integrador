@@ -275,7 +275,7 @@ h1, h2, h3 {
   max-width: 40rem;
   margin-inline: var(--container-padding);
   padding: 2rem 2.5rem;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 1rem;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
   text-align: center;
@@ -291,7 +291,6 @@ h1, h2, h3 {
   font-size: var(--text-2xl);
   line-height: var(--leading-2xl);
   color: var(--primaria-800);
-  margin-bottom: 1.5rem;
 }
 
 /* Números Climáticos */
